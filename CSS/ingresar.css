@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+    --clr-mainpink: #ff73a1;
+    --clr-mainpurple: #8c69de;
+    --clr-white: #f8f8f8;
+    --clr-vanila: #e9ec92;
+    --clr-hotpink: #ff009d;
+    --clr-hover:  #b68cde;
+}
+
+/* header */
+
+#header {
+    background-color:white;
+}
+/* nav */
+#nav{
+    display: flex;
+    background-color: var(--clr-mainpink);
+    min-height: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.contenedorNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#titulo {
+    color:var(--clr-vanila);
+    margin-top: 10px;
+    margin-left: 46px;    
+    font-size: 2.5rem;
+}
+/* nav */
+
+
+/* sub-nav */
+#sub-nav {
+    background-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    opacity: 1;
+    margin-bottom: 0vw;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    margin: 8px;
+    
+}
+
+
+
+#nav-link0 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#homeTxt {
+    text-decoration: none;
+    color: var(--clr-mainpink);
+    font-size: 1.2em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#homeTxt:hover {
+    color: var(--clr-hover);
+}
+
+
+
+.nav-link1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#opinionTxt{
+    text-decoration: none;
+        color: var(--clr-mainpink);
+    font-size: 1.2em;
+    margin-right: 40px;
+    background-color: black;
+    border: none;
+}
+
+#opinionTxt:hover {
+    color:var(--clr-hover);
+}
+
+
+
+
+.nav-link2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cuentaTxt{
+    text-decoration: none;
+    color: var(--clr-mainpink);
+font-size: 1.2em;
+margin-right: 40px;
+background-color: black;
+border: none;
+}
+
+#cuentaTxt:hover {
+    color: var(--clr-hover);
+}
+
+
+
+
+.nav-link3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#ingresaTxt{
+    text-decoration: none;
+        color: var(--clr-mainpink);
+    font-size: 1.2em;
+    margin-right: 40px;
+    background-color: black;
+    border: none;
+}
+
+#ingresaTxt:hover {
+    color: var(--clr-hover);
+}
+
+
+
+
+#nav-link4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#sobreNosotrosTxt {
+    text-decoration: none;
+        color: var(--clr-mainpink);
+    font-size: 1.2em;
+    margin-right: 40px;
+    background-color: black;
+    border: none;
+}
+
+#sobreNosotrosTxt:hover {
+    color: var(--clr-hover);
+
+}
+/* sub-nav */
+
+/* header */
+
+
+/* main */
+
+#main {
+    display: flex;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    margin-right: auto;
+    width: 28%;
+    margin-top: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 5%;
+    min-height: 350px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 2px;
+    color: var(--clr-hover);
+    transition: all 0.4s;
+}
+
+#form:hover {
+    width: 40%;
+}
+
+#tituloForm {
+    display: flex;
+    justify-content: center;
+    color: var(--clr-hotpink);
+}
+
+#form input {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#btnIngresar {
+    border: none;
+    cursor: pointer;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--clr-mainpink);
+    transition: all 0.2s;
+    border-radius: 7px;
+    color: var(--clr-vanila);
+    background-color:var(--clr-hotpink);
+}
+
+#btnIngresar:hover{
+    background-color:var(--clr-mainpurple);
+}
+
+#volver {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/* main */

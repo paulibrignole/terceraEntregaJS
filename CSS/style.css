@@ -1,0 +1,397 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+    --clr-mainpink: #ff73a1;
+    --clr-mainpurple: #8c69de;
+    --clr-white: #f8f8f8;
+    --clr-vanila: #e9ec92;
+    --clr-hotpink: #ff009d;
+    --clr-hover:  #b68cde;
+}
+
+/* nav */
+#nav{
+    display: flex;
+    background-color: var(--clr-mainpink);
+    min-height: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.contenedorNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+
+    color:var(--clr-vanila);
+    margin-top: 10px;
+    margin-left: 46px;   
+}
+
+/* nav */
+#nav{
+    display: flex;
+    min-height: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.contenedorNav{
+    display: flex;
+    align-items: center;
+    
+}
+
+#titulo {
+    color: var(--clr-vanila);
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 46px;    
+}
+/* nav */
+
+
+/* sub-nav */
+#sub-nav {
+    background-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    opacity: 1;
+    margin-bottom: 0vw;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    margin: 8px;
+    
+}
+
+
+#nav-link0 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#home {
+    text-decoration: none;
+    color: var(--clr-mainpink);
+    font-size: 1.2em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#home:hover {
+    color: var(--clr-hover);
+}
+
+
+
+.nav-link1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#carrito{
+    text-decoration: none;
+        color: var(--clr-mainpink);
+    font-size: 1.2em;
+    margin-right: 40px;
+    background-color: black;
+    border: none;
+}
+
+#carrito:hover {
+    color:var(--clr-hover);
+}
+
+#tituloModalCarrito {
+    display: flex;
+    align-items: center;
+}
+
+#exampleModalLabel {
+    margin-left: 5px;
+}
+
+#carritoModal {
+    color:var(--clr-hover);
+}
+
+#carritoVacioMsj {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    color:var(--clr-mainpurple);
+}
+
+#imgProductoCarrito {
+    height: 13vw;
+    width: 11vw;
+}
+
+.eliminarProductoCarrito {
+    background-color:var(--clr-hotpink);
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+    color: white;
+
+}
+
+.eliminarProd {
+    animation: eliminarProd 1s 0s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes eliminarProd {
+    100% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+}
+
+#modal-footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#modal-footer p {
+    font-size: 18px;
+}
+
+#btnVaciarCarrito {
+    background-color: var(--clr-hotpink);
+    border: none;
+    color:var(--clr-white);
+    padding: 7px;
+    border-radius: 4px;
+    margin-right: 4vw;
+}
+
+
+
+
+.nav-link2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#registro{
+    text-decoration: none;
+    color: var(--clr-mainpink);
+    font-size: 1.2em;
+    margin-right: 40px;
+}
+
+#registro:hover { color:var(--clr-hover);
+    color: var(--clr-hover);
+}
+
+
+
+
+
+.nav-link3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#ingresa{
+    text-decoration: none;
+    color: var(--clr-mainpink);
+    font-size: 1.2em;
+    margin-right: 40px;
+}
+
+#ingresa:hover {
+    color:var(--clr-hover);
+}
+
+
+
+
+#nav-link4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#sobreNosotros {
+    text-decoration: none;
+    color: var(--clr-mainpink);
+    font-size: 1.2em;
+    margin-right: 40px;
+}
+
+#sobreNosotros:hover {
+    color: var(--clr-hover);
+
+}
+/* sub-nav */
+
+/* header */
+
+
+
+/* main */
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner .carousel-item img {
+    height: 33vw;
+}
+
+.tituloProductos {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-white);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    
+}
+
+.tituloProductos h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color:var(--clr-mainpink);
+
+}
+
+#productos {
+
+    opacity: 0.8;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#card-body {
+    margin: 5px;
+    transition: all 0.2s;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#card-body:hover {
+    box-shadow: 0px 5px 5px 2px;
+    color: var(--clr-hover);
+}
+
+#imgProducto {
+
+    width: auto;
+}
+
+.btnAgregarCarrito {
+    background-color: var(--clr-mainpink);
+    border: none;
+    color: var(--clr-vanila);
+    text-decoration: none;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.2s;
+
+}
+
+#card-carrito {
+    background-color: var(--clr-mainpurple);
+}
+
+.btnAgregarCarrito:hover {
+    color:var(--clr-hover);
+}
+
+
+/* main */
+
+
+
+/* footer */
+
+#footer {
+    background: var(--clr-mainpink);
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vw;
+}
+
+.hr {
+    background-color:var(--clr-mainpurple);
+    width: 30vw;
+    margin: auto;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 3vw;
+
+}
+
+.hrText {
+    color:var(--clr-hotpink);
+}
+
+#contenidoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 35px;
+}
+
+.logo {
+    width: 2vw;
+    height: 2vw;
+    margin-top: 1.5vw;
+    margin-left: 1.7vw;
+    margin-right: 1vw;
+}
+
+#nombrePagFooter {
+    font-family: sans-serif;
+    font-size: 2vw;
+    color: var(--clr-white);
+}
+
+.contenedorNombrePagFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.contenedorNombrePagFooter a {
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+.contenedorNombrePagFooter a:hover {
+    text-decoration: none;
+    color:var(--clr-white);
+}
+
+/* footer */

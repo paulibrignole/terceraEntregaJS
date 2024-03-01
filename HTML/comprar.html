@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/comprar.css">
+    <title>Finalizar compra</title>
+    <link rel="shortcut icon" href="/Imagenes/aralogo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header -->
+    <nav>
+        <div id="header">
+            <img src="../Imagenes/cart-regular-24.png" alt="">
+            <h1>Ara Morena</h1>
+            <p>Llegó la hora de finalizar tu compra. A continuación te vamos a pedir algunos datos.</p>
+        </div>
+    </nav>
+    <!-- header -->
+    
+    <!-- main -->
+    <main id="main">
+        <div id="main2">
+            <div id="datosCompra">
+                <h3>Datos personales</h3>
+                <form id="form">
+                    <div id="datosNameSurname">
+                        <label for="">Nombres:
+                            <input type="text" required>
+                        </label>
+                        <label for="">Apellido:
+                            <input type="text" required>
+                        </label>
+                    </div>
+                    <div id="datosPersona">
+                        <label for="">Ingrese su email:
+                            <input type="email" required>
+                        </label>
+                        <label for="">Ingrese su DNI:
+                            <input type="number" required>
+                        </label>
+                        <label for="">¿Donde vives?
+                            <select name="" id="">
+                                <option value="">Argentina</option>
+                                <option value="">Uruguay</option>
+                                <option value="">Bolivia</option>
+                                <option value="">Peru</option>
+                                <option value="">Colombia</option>
+                                <option value="">Chile</option>
+                                <option value="">Paraguay</option>
+                            </select>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            
+            <div id="informacionPago">
+                <h3>Ingresá los datos de tu tarjeta</h3>
+                <form id="formPago">
+                    <input type="text" placeholder="Nombre y apellido" required>
+                    <input type="number" placeholder="Numero de la tarjeta" required>
+                    <input type="number" placeholder="Fecha de vencimiento" required>
+                    <input type="number" placeholder="Codigo de seguridad" required>
+                    <div>
+                        <input type="submit" id="finalizarCompra">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div id="carritoAside">
+            <h3>Carrito final</h3>
+            <div id="mostrarCarritoAside">
+
+            </div>
+            <div id="precioFinal">
+                <p>Precio total: $<p id="precioFinalCarrito">0</p></p>
+            </div>
+        </div> 
+    </main>
+    <!-- main -->
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/js/comprar.js"></script>
+</body>
+</html>

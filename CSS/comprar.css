@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+    --clr-mainpink: #ff73a1;
+    --clr-mainpurple: #8c69de;
+    --clr-white: #f8f8f8;
+    --clr-vanila: #e9ec92;
+    --clr-hotpink: #ff009d;
+    --clr-hover:  #b68cde;
+}
+
+/* header */
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+#header img {
+    height: 3vw;
+    width: 3vw;
+}
+
+#header h1 {
+
+    color: var(--clr-mainpurple);
+} 
+/* header */
+
+
+/* main */
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    margin-right: 1vw;
+}
+
+#datosCompra {
+    background-color:var(--clr-hotpink);
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+#datosCompra h3 {
+    text-decoration: none;
+    color:var(--clr-white);
+}
+
+#main2 div h3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form label {
+    margin-right: 18px;
+    color: var(--clr-white);
+}
+
+#form label input {
+    background-color: var(--clr-white);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color:var(--clr-white);
+}
+
+#datosNameSurname {
+    display: flex;
+    justify-content: center;
+}
+
+#datosPersona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#datosPersona label {
+    margin-bottom: 15px;
+}
+
+#carritoAside {
+    background-color: var(--clr-hotpink);
+    width: 30%;
+    padding-right: 5px;
+    border-radius: 10px;
+    margin-top: 4vw;
+    min-height: 100%;
+
+
+}
+
+#carritoAside h3 {
+    color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+}
+
+#carritoFinal {
+    display: flex;
+    background-color: var(--clr-white);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%s;
+}
+
+#imgCarritoFinal {
+    width: 6vw;
+    height: 8vw;
+    margin-right: 15px;
+}
+
+#precioFinal {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+
+#informacionPago {
+    background-color:var(--clr-hotpink);
+    min-height: 10vw;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 10vw;
+    width: 100%;
+    border: 2px solid var(--clr-white);
+}
+
+#informacionPago h3 {
+    color: var(--clr-white);
+}
+
+#formPago {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8vw;
+}
+
+#formPago div input {
+    margin-left: 24vw;
+    width: 40%;
+    background-color:var(--clr-mainpurple);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#formPago div input:hover {
+    background-color:var(--clr-hover);
+    color: var(--clr-white);
+}
+
+
+#formPago input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:var(--clr-white);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+
+
+/* main */

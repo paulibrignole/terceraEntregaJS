@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="shortcut icon" href="/Imagenes/aralogo.svg" type="image/x-icon">
+    
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- toasify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="/css/ingresar.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <nav id="nav">
+          <div class="contenedorNav">
+            <h2 id="titulo"> Ara Morena Jackets</h2>
+          </div>
+        </nav>
+        <nav>
+          <div id="sub-nav">
+            <nav class="links">
+              <div class="nav-link0">
+                <a  id="homeTxt" href="/Html/index.html">Home</a>
+              </div>
+              <div class="nav-link1">
+                  <a  id="opinionTxt" href="">Carrito</a>
+              </div>
+              <div class="nav-link2">
+                  <a id="cuentaTxt" href="/Html/registro.html">Registrarse</a>
+              </div>
+              <div class="nav-link3">
+                <a id="ingresaTxt" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Iniciar sesion</a>
+              </div>
+              <div class="nav-link4">
+                <a id="sobreNosotrosTxt" href="#footer">Sobre nosotros</a>
+              </div>
+            </nav>
+          </div>
+        </nav>
+    </div>
+    <!-- header -->
+
+    <!-- main -->
+    <div id="main">
+        <form id="form">
+            <h2 id="tituloForm">Iniciar sesion</h2>
+            <input type="text" id="usuario" placeholder="Usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <input type="submit" id="btnIngresar" value="Ingresar">
+            <a href="/Html/registro.html" id="volver">¿Aún no tienes una cuenta? Registrate</a>
+        </form>
+    </div>
+    <!-- main -->
+
+    <!-- sweetalert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="/js/ingresar.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+
+[
+    {"id": 1, "producto": "Campera Nature", "precio": 70000, "cantidad": 1, "imagen": "../Imagenes/flores persona-min.jpg"},
+    {"id": 2, "producto": "Campera Frida", "precio": 80000, "cantidad": 1, "imagen": "../Imagenes/frida persona-min.jpg"},
+    {"id": 3, "producto": "Campera Pride", "precio": 65000, "cantidad": 1, "imagen": "../Imagenes/pride-min.jpg"},
+    {"id": 4, "producto": "Campera Share", "precio": 65000, "cantidad": 1, "imagen": "../Imagenes/share-min.jpg"},
+    {"id": 5, "producto": "Campera Moon", "precio": 60000, "cantidad": 1, "imagen":"../Imagenes/moon-min.jpg"},
+    {"id": 6, "producto": "Campera Hibiscus", "precio": 55000, "cantidad": 1, "imagen": "../Imagenes/flores tachas-min.jpg"},
+    {"id": 7, "producto": "Campera Cadenas", "precio": 55000, "cantidad": 1, "imagen": "../Imagenes/cadenas persona-min.jpg"},
+    {"id": 8, "producto": "Campera Color", "precio": 65000, "cantidad": 1, "imagen": "../Imagenes/pride frente persona-min.jpg"},
+    {"id": 9, "producto": "Campera Salem", "precio": 45000,  "cantidad": 1, "imagen": "../Imagenes/cat b-min.jpg"},
+    {"id": 10, "producto": "Campera Daragón", "precio": 45000, "cantidad": 1,  "imagen": "../Imagenes/dagon b-min.jpg"},
+    {"id": 11, "producto": "Campera Universo", "precio": 40000,  "cantidad": 1, "imagen":"../Imagenes/universo b-min.jpg"},
+    {"id": 12, "producto": "Campera Print", "precio": 70000,  "cantidad": 1, "imagen": "../Imagenes/print b-min.jpg"},
+    {"id": 13, "producto": "Campera Queen", "precio": 85000,  "cantidad": 1, "imagen": "../Imagenes/3queen-min.jpg" },
+    {"id": 14, "producto": "Campera 90s", "precio": 85000,  "cantidad": 1, "imagen": "../Imagenes/campe 90s-min.jpg"},
+    {"id": 15, "producto": "Campera Kobe", "precio": 85000,  "cantidad": 1, "imagen":"../Imagenes/campe bask-min.jpg"},
+    {"id": 16, "producto": "Campera Luna", "precio": 65000, "cantidad": 1, "imagen": "../Imagenes/as-min.jpg"}
+]

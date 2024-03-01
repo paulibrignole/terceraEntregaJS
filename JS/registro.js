@@ -19,7 +19,7 @@ form.addEventListener("submit", (e) => {
             //se crea la cuenta y se envian los datos a un array
             swal({
                 title: "¡Excelente!",
-                text: "Tu cuenta se creo con exito! Podés ir al home y comprar.",
+                text: "¡Tu cuenta se creo con exito! Podés ir al home y comprar.",
                 icon: "success",
                 });
             cuentas.push({

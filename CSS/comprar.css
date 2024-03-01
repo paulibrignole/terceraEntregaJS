@@ -19,6 +19,7 @@
 }
 
 /* header */
+
 #header {
     display: flex;
     flex-direction: column;
@@ -32,13 +33,14 @@
 }
 
 #header h1 {
-
     color: var(--clr-mainpurple);
 } 
+
 /* header */
 
 
 /* main */
+
 #main {
     display: flex;
     justify-content: space-between;
@@ -55,8 +57,6 @@
     background-color:var(--clr-hotpink);
     padding: 20px;
     border-radius: 10px;
-
-
 }
 
 #datosCompra h3 {
@@ -111,8 +111,6 @@
     border-radius: 10px;
     margin-top: 4vw;
     min-height: 100%;
-
-
 }
 
 #carritoAside h3 {
@@ -186,6 +184,5 @@
     border-right: none;
     border-color: black;
 }
-
 
 /* main */

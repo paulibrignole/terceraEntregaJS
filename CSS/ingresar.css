@@ -23,6 +23,7 @@
 #header {
     background-color:white;
 }
+
 /* nav */
 #nav{
     display: flex;
@@ -61,10 +62,7 @@
     align-items: center;
     padding-right: 10px;
     margin: 8px;
-    
 }
-
-
 
 #nav-link0 {
     margin-top: 10px;
@@ -82,7 +80,6 @@
 #homeTxt:hover {
     color: var(--clr-hover);
 }
-
 
 
 .nav-link1 {
@@ -104,8 +101,6 @@
 }
 
 
-
-
 .nav-link2 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -125,12 +120,9 @@ border: none;
 }
 
 
-
-
 .nav-link3 {
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 #ingresaTxt{
@@ -145,8 +137,6 @@ border: none;
 #ingresaTxt:hover {
     color: var(--clr-hover);
 }
-
-
 
 
 #nav-link4 {
@@ -168,10 +158,10 @@ border: none;
     color: var(--clr-hover);
 
 }
+
 /* sub-nav */
 
 /* header */
-
 
 /* main */
 
@@ -239,6 +229,5 @@ border: none;
     font-size: 14px;
     text-decoration: none;
 }
-
 
 /* main */

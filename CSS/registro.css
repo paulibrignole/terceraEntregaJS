@@ -25,6 +25,7 @@
 }
 
 /* nav */
+
 #nav{
     display: flex;
     background-color: var(--clr-mainpink);
@@ -46,10 +47,12 @@
     margin-left: 46px;    
     font-size: 2.5rem;
 }
+
 /* nav */
 
 
 /* sub-nav */
+
 #sub-nav {
     background-color: rgb(0, 0, 0);
     margin-top: 0px;
@@ -84,7 +87,6 @@
 }
 
 
-
 .nav-link1 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -102,8 +104,6 @@
 #opinionTxt:hover {
     color:var(--clr-hover);
 }
-
-
 
 
 .nav-link2 {
@@ -125,12 +125,9 @@ border: none;
 }
 
 
-
-
 .nav-link3 {
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 #ingresaTxt{
@@ -148,11 +145,9 @@ border: none;
 
 
 
-
 #nav-link4 {
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 #sobreNosotrosTxt {
@@ -166,12 +161,11 @@ border: none;
 
 #sobreNosotrosTxt:hover {
     color: var(--clr-hover);
-
 }
+
 /* sub-nav */
 
 /* header */
-
 
 /* main */
 

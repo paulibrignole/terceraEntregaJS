@@ -30,7 +30,7 @@ form.addEventListener("submit", (e) => {
     } else {
         swal({
             title: "Ha ocurrido un problema",
-            text: "El usuario/contraseña ingresados no se encontraron, volvé a intentarlo.",
+            text: "No pudimos encontrar tu usuario y/o contraseña, volvé a intentarlo.",
             icon: "warning",
             });
     }

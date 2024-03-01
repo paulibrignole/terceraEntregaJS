@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     calcularTotalCarrito()
 })
 
-//funcio para finalizar la compra mediante el boton del formulario
+//funcion para finalizar la compra mediante el boton del formulario
 formPago.addEventListener("submit", (e) => {
     e.preventDefault();
     let nombre = e.target.children[0].value;

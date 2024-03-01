@@ -8,7 +8,7 @@ const btnFinalizarCompra = document.getElementById("btnFinalizarCompra");
 const productosEnDescuento = document.getElementById("productosEnDescuento");
 const precioTotalCarrito = document.getElementById("precioTotalCarrito");
 
-// funcion para tomar los productos mediante un fetch y mostrarlos en pantalla recorriendo el array
+// funcion para tomar los productos mediante fetch y mostrarlos en pantalla recorriendo el array
 const mostrarProductos = () => {
     fetch('/data/productos.json')
         .then(resp => resp.json())
@@ -47,10 +47,9 @@ const carritoVacio = () => {
     } 
 }
 
-//evento sobre el document para que cuando se cargue muestre tanto los productos como los que estan en descuento
+//evento sobre el document para que cuando se cargue muestre los productos 
 document.addEventListener('DOMContentLoaded', () => {
     mostrarProductos();
-    mostrarProdDescontados();
     carritoVacio();  
 })
 
@@ -147,7 +146,7 @@ const borrarProdCarrito = (divProd , id) => {
     carritoVacio()
 }
 
-//funcion para vaciar el carrito por completo
+//funcion para vaciar el carrito 
 btnVaciarCarrito.addEventListener("click", () => {
     carritoModal.classList.add("eliminarProd")
     setTimeout(()=> {
